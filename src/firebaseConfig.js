@@ -1,14 +1,14 @@
 import firebase from 'firebase'
 
-
 const config = {
-    apiKey: "AIzaSyC7jic1on54na1rqXP-np0y4jbFCBm4gb0",
-    authDomain: "todo-e8a15.firebaseapp.com",
-    databaseURL: "https://todo-e8a15.firebaseio.com",
-    projectId: "todo-e8a15",
-    storageBucket: "todo-e8a15.appspot.com",
-    messagingSenderId: "557279665039"
-  };
-  firebase.initializeApp(config);
+  apiKey: "AIzaSyDDOwPtv46O8gP0f-RBsvT9nDp3yrRXxtQ",
+  authDomain: "ad-snadbox.firebaseapp.com",
+  databaseURL: "https://ad-snadbox.firebaseio.com",
+  projectId: "ad-snadbox",
+  storageBucket: "ad-snadbox.appspot.com",
+  messagingSenderId: "328854615659"
+}
 
-  export const database= firebase.database()
+firebase.initializeApp(config)
+
+export const database = firebase.database()
